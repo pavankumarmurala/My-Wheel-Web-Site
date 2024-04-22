@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .heading {
+    color: red;
+  }
+
+  .input-group {
+    margin: 15px 0;
+  }
+
+  #border{
+    border:1px solid white;
+WIDTH:40%;
+margin-left: 580px;
+border-radius: 10PX;
+  }
+  
+
+  input[type="text"] {
+    width: 25%;
+	height:60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+
+  .button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: white;
+    color: black;
+  }
+  img
+  {
+    border-radius: 10px;
+  }
+</style>
+<title>Payment Page</title>
+</head>
+<body>
+  <center>      <video src="logo.mp4" type="video/mp4" loop autoplay muted style="width: 200px; height: 150px;"></video>
+  </center>       
+<div id="border">
+  <div class="container">
+    <h1 class="heading">CASH ON DELIVERY</h1>
+    <form>
+	<img height="270" width="270"src="https://mytvs.com/assets/images/pay_logo/cod-pay.jpg"><br><br>
+<button class="button" type="submit"><a href="payment.html">PROCEED TO CHECKOUT</a></button>
+<h1  class="heading">CARD DETAILS</h1>
+      <div class="input-group">
+        <input type="text" id="name" name="name" placeholder="Card Number" required>
+      </div>
+      <div class="input-group">
+       
+        <input type="text" id="validity" name="validity" placeholder="MM/YY" required>
+      </div>
+      <div class="input-group">
+        
+        <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+      </div>
+	  <button class="button" type="submit"><a href="payment.html">PROCEED TO CHECKOUT</a></button>
+      
+    </form>
+  </div>
+</div>
+</body>
+</html>
+

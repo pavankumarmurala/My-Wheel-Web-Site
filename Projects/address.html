@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 24px;
+    margin-top: 20px;
+	color:red;
+}
+
+.country-select {
+    margin-top: 10px;
+    padding: 5px;
+	margin-right:266px;
+  
+}
+
+
+
+.proceed {
+    background-color: orange;
+	text-decoration:none;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+	margin-right: 50px;
+	
+}
+
+button:hover {
+   background-color: white;
+}
+.input-group {
+    margin: 15px 0;
+    margin-right: 160px;
+  }
+
+  
+
+  input[type="text"] {
+    width: 170%;
+	height:60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+.border
+{
+
+  border:1px solid white;
+  padding:50px;
+}
+    </style>
+    <title>Your Web Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <video src="logo.mp4" type="video/mp4" loop autoplay muted style="width: 200px; height: 150px;"></video>
+        </div>
+        <div class="border">
+        <h1 class="heading">ADDRESS</h1>
+        <select class="country-select">
+            <option value="india">INDIA</option>
+            <option value="usa">USA</option>
+            <option value="uae">UAE</option>
+        </select>
+        <form>
+      <div class="input-group">
+        
+        <input type="text" id=" first name" name="first name" placeholder="First Name" required>
+      </div>
+      <div class="input-group">
+       
+        <input type="text" id="last name" name="last name" placeholder="Last Name" required>
+      </div>
+      <div class="input-group">
+        
+        <input type="text" id="phone" name="phone" placeholder="Phone" required>
+      </div>
+	  <div class="input-group">
+        
+        <input type="text" id="zip" name="zip" placeholder="Zip Code" required>
+      </div>
+	  <div class="input-group">
+        
+        <input type="text" id="city" name="phone" placeholder="City" required>
+      </div>
+      <button class="proceed" type="submit"><a href="card.html">CONTINUE</a></button>
+    </form>
+  </div>
+  </div>
+</body>
+</html>
+
